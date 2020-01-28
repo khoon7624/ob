@@ -20,7 +20,23 @@
 .swiper-button-prev{
    display: none;
 }
-
+/* 검색창 */
+.search-box{
+   top: 70%;
+}
+.search-box input{
+   width: 200px;
+   height: 32px;
+}
+.search-box .search i{
+   font-size: 26px;
+}
+.search-box .close i{
+   font-size: 32px;
+}
+input::placeholder{
+   font-size: 10px;
+}
 .company .worldmap-box iframe {
    height: 220px;
 }
