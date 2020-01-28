@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width:1101px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:1100px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ob.js"></script>
+</head>
+<body>
+   <aside id="quick-nav">
+      <button class="active"></button>
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+   </aside>
+   <div class="header">
+      <a href="#"><h1 class="sp sp-logo blind">OB Lager</h1></a>
+      <nav>
+         <button id="btn-menu">
+            <i class="material-icons">menu</i>
+         </button>
+         <ul class="gnb">
+            <li>
+               <a href="#">
+                  <span class="menu company-m">Company</span>
+                  <span class="menu company-m">회사소개</span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+               </a>
+               <ul class="sub">
+                  <li><a href="#">회사 소개</a></li>
+                  <li><a href="#">기업 문화</a></li>
+                  <li><a href="#">역사관</a></li>
+                  <li><a href="#">동반성장</a></li>
+                  <li><a href="#">수출현황</a></li>
+                  <li><a href="#">찾아 오시는 길</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">
+                  <span class="menu brands-m">Brands</span>
+                  <span class="menu brands-m">브랜드</span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+               </a>
+               <ul class="sub">
+                  <li><a href="#">브랜드</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">
+                  <span class="menu better">BetterWorld</span>
+                  <span class="menu better">더나은세상</span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+               </a>
+               <ul class="sub">
+                  <li><a href="#">더 나은 세상</a></li>
+                  <li><a href="#">건전 음주</a></li>
+                  <li><a href="#">환경 경영</a></li>
+                  <li><a href="#">지역 상생</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">
+                  <span class="menu news">NewsRoom</span>
+                  <span class="menu news">뉴스룸</span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+               </a>
+               <ul class="sub">
+                  <li><a href="#">뉴스룸</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">
+                  <span class="menu careers">Careers</span>
+                  <span class="menu careers">채용정보</span>
+                  <i class="material-icons">keyboard_arrow_down</i>
+               </a>
+               <ul class="sub">
+                  <li><a href="#">일하기 좋은 회사</a></li>
+                  <li><a href="#">채용 공고</a></li>
+                  <li><a href="#">경력직 상시지원</a></li>
+                  <li><a href="#">AB InBev 프로그램</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+     <div class="util">
+      <button class="search"><i class="material-icons">search</i></button>
+        <div class="lang">
+           <ul>
+              <li class="on"><a href="#">KR</a></li>
+              <li><a href="#">ENG</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="gnb-bg">
+         <button class="top-arrow"><i class="material-icons">keyboard_arrow_up</i></button>
+      </div>
+      <div class="search-box">
+         <form action="#">
+            <input type="text" placeholder="Search by keyword">
+            <button class="search"><i class="material-icons">search</i></button>
+         </form>
+         <button class="close"><i class="material-icons">close</i></button>
+      </div>
+   </div>
+   <section class="main">
+      <div class="swiper-container">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide">
+              <img src="img/main_slide4_p.jpg" alt="" class="p">
+              <img src="img/main_slide4_t.jpg" alt="" class="t">
+              <img src="img/main_slide4_m.jpg" alt="" class="m">
+            </div>
+           <div class="swiper-slide">
+              <img src="img/main_slide2_p.jpg" alt="" class="p"> 
+              <img src="img/main_slide2_p.jpg" alt="" class="t"> 
+              <img src="img/main_slide2_m.jpg" alt="" class="m"> 
+            </div>
+           <div class="swiper-slide">
+              <img src="img/main_slide3_p.jpg" alt="" class="p"> 
+              <img src="img/main_slide3_p.jpg" alt="" class="t"> 
+              <img src="img/main_slide3_m.jpg" alt="" class="m"> 
+            </div>
+           <div class="swiper-slide">
+              <img src="img/main_slide1_p.jpg" alt="" class="p"> 
+              <img src="img/main_slide1_t.jpg" alt="" class="t"> 
+              <img src="img/main_slide1_m.jpg" alt="" class="m"> 
+            </div>
+           <div class="swiper-slide">
+              <img src="img/main_slide5_p.jpg" alt="" class="p">
+              <img src="img/main_slide5_p.jpg" alt="" class="t">
+              <img src="img/main_slide5_m.jpg" alt="" class="m">
+            </div>
+         </div>
+         <!-- Add Pagination -->
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+    <section class="brands">
+      <div class="container">
+         <div class="title">
+            <h2>Brands</h2>
+            <button><i class="material-icons">forward</i></button>
+         </div>
+         <div class="beer-list swiper-container">
+            <ul class="swiper-wrapper">
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands2.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Budweiser</span>
+                     <b>세계 판매 1위</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands3.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>FiLGOOD</span>
+                     <b>하이퀄리티 발포주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands1.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Cass Fresh</span>
+                     <b>젊음의 No.1 맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands4.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Victoria Bitter</span>
+                     <b>청정지역 호주의 국민맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands5.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Suntory</span>
+                     <b>깊은 맛의 필스너맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands6.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Stella Artois</span>
+                     <b>유럽 최고 '프리미엄 라거 맥주'</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands7.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>OB Premier</span>
+                     <b>풍부하고 진한 맛의 필스너 맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands8.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Lowenbrau</span>
+                     <b>600년 이상 순수함을 간직한 '레벤브로이'</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands9.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Hoegaarden</span>
+                     <b>570년 역사의 정통 오리지널</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands10.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Harbin</span>
+                     <b>얼음의 도시 하얼빈에서 생산된 가장 시원한 맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands11.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Franziskaner</span>
+                     <b>650년 전통 독일 베스트셀러 밀맥주 프란치스카너</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands12.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Corona</span>
+                     <b>세계 수출량 1위를 자랑하는 ‘코로나’</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands13.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Cass Light</span>
+                     <b>대한민국 No.1 라이트 맥주</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands14.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Cass Lemon</span>
+                     <b>'상큼한 내 마음 속 여유'</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands15.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Cafri</span>
+                     <b>삶에 활력을 주는 도심 속 자유로움</b>
+                  </div>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#"><img src="img/brands16.png" alt=""></a>
+                  <div class="beer-info">
+                     <span>Beck’s</span>
+                     <b>세계에서 가장 사랑받는 독일 맥주 벡스</b>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+    </section>
+    <section class="company">
+      <div class="container">
+         <div class="title">
+            <h2>Company</h2>
+            <button><i class="material-icons">forward</i></button>
+         </div>
+         <div class="company-box">
+            <div class="text-box">
+               <h4>대한민국 대표 맥주</h4>
+               <p>
+                  오비맥주 주식 회사는 1933년 태동하여 80년이상
+                  한국 주류 업계를 이끌어 온 대한민국 대표 맥주회사 입니다.
+                  이천, 광주, 청주 3개 공장에서 최고 품질의 맥주를 
+                  생산할 수 있는 최신 자동화 설비를 갖추고 있습니다.
+               </p>
+            </div>
+            <div class="img-box">
+               <img src="img/company_img1.png" alt="">
+            </div>
+         </div>
+         <div class="worldmap-box">
+            <iframe src="img/index.html" frameborder="0"></iframe>
+            <div class="text-box">
+               <h4>세계로 향하는 OB</h4>
+               <p>
+                  국내 맥주 수출 1위 기업인 오비 맥주는 
+                  몽골의 대표적인 맥주 카스를 비롯, 전 세계
+                  30개국에 30여종의 맥주 제품을 수출하여 
+                  해외시장 개척에도 앞장서고 있습니다. 
+               </p>
+            </div>
+         </div>
+      </div>
+    </section>
+    <section class="history">
+      <div class="container">
+         <div class="title">
+            <h2>History</h2>
+            <button><i class="material-icons">forward</i></button>
+         </div>
+         <div class="tab">
+            <ul>
+               <li><a href="#" class="active">2010s</a></li>
+               <li><a href="#">2000s</a></li>
+               <li><a href="#">1990s</a></li>
+               <li><a href="#">1980~</a></li>
+            </ul>
+         </div>
+         <div class="img-container">
+            <div class="sub-title">
+               <div class="hist-year active">2010S</div>
+               <div class="hist-year">2000S</div>
+               <div class="hist-year">1990S</div>
+               <div class="hist-year">1980S~</div>
+            </div>
+            <div class="img-box">
+               <img src="img/history.jpg" alt="" class="active ">
+               <img src="img/history2000.png" alt="">
+               <img src="img/history1990.jpg" alt="">
+               <img src="img/history1980.jpg" alt="">
+            </div>
+         </div>
+         <div class="over">
+            <div class="scrollbar-inner">
+               <div class="graph">
+                  <div class="graph-box graph2010 active">
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2017
+                        </p>
+                        <div class="hist-text">
+                           <p>2017.07</p>
+                           <p>'호가든 레몬' 출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2017.06</p>
+                           <p>프리미엄 캔 칵테일 '믹스테일 아이스'2종 출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2017.03</p>
+                           <p>'호가든 체리' 출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2016
+                        </p>
+                        <div class="hist-text">
+                           <p>2016.11</p>
+                           <p>본사 삼성동 아셈타워로 이전. '호가든 유자'출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2016.05</p>
+                           <p>신개념 프리미엄 칵테일'믹스테일' 2종 출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2015
+                        </p>
+                        <div class="hist-text">
+                           <p>2015.10</p>
+                           <p>'프리미어 OB 둔켈'출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2015.06</p>
+                           <p>'프리미어 OB 바이젠'출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2015.01</p>
+                           <p>맥주업계 최초로 3개공장 HACCP 인증</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2014
+                        </p>
+                        <div class="hist-text">
+                           <p>2014.04</p>
+                           <p>AB InBev로 주주변경</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2012
+                        </p>
+                        <div class="hist-text">
+                           <p>2012.12</p>
+                           <p>주류업계 최초 ‘1억불 수출탑’ 수상</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2011
+                        </p>
+                        <div class="hist-text">
+                           <p>2011.08</p>
+                           <p>OB Golden Lager 출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2011.05</p>
+                           <p>Cass Light 출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2011.03</p>
+                           <p>Corona 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2010
+                        </p>
+                        <div class="hist-text">
+                           <p>2010.12</p>
+                           <p>Suntory The Premium Malt's 시판</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="graph-box graph2000">
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2009
+                        </p>
+                        <div class="hist-text">
+                           <p>2009.07</p>
+                           <p>콜버그 크래비츠 로버츠(KKR)로 주주변경</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2009.04</p>
+                           <p>Cass Light 출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2008
+                        </p>
+                        <div class="hist-text">
+                           <p>2008.04</p>
+                           <p>'호가든 레몬' 출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2007
+                        </p>
+                        <div class="hist-text">
+                           <p>2007.03</p>
+                           <p>Cass Red출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2006
+                        </p>
+                        <div class="hist-text">
+                           <p>2006.09</p>
+                           <p>Cass Ice Light출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2006.06</p>
+                           <p>OB Blue 출시</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2004
+                        </p>
+                        <div class="hist-text">
+                           <p>2004.05</p>
+                           <p>Cass 큐팩 출시</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>2004.03</p>
+                           <p>카프리 레몬 출시, Cass 라벨 변경</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2002
+                        </p>
+                        <div class="hist-text">
+                           <p>2002.07</p>
+                           <p>OB맥주 서초동 사옥으로 이전</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2001
+                        </p>
+                        <div class="hist-text">
+                           <p>2001.03</p>
+                           <p>OB맥주 충북청원으로 본점이점</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           2000
+                        </p>
+                        <div class="hist-text">
+                           <p>2000.03</p>
+                           <p>OB라이트 재탄생</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="graph-box graph1990">
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1999
+                        </p>
+                        <div class="hist-text">
+                           <p>1999.12</p>
+                           <p>Cass맥주 인수</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1998
+                        </p>
+                        <div class="hist-text">
+                           <p>1998.09</p>
+                           <p>벨기에 인터브루사와 합작사 설립</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>1998.06</p>
+                           <p>두산그룹 8개 계열사 합병</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1997
+                        </p>
+                        <div class="hist-text">
+                           <p>1997.10</p>
+                           <p>두산음료 흡수 합병</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1995
+                        </p>
+                        <div class="hist-text">
+                           <p>1995.07</p>
+                           <p>OB LAGER 시판 / CAFRI 시판</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>1995.03</p>
+                           <p>오비맥주 주식회사로 회사명 변경</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1994
+                        </p>
+                        <div class="hist-text">
+                           <p>1994.10</p>
+                           <p>NEX 시판</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>1994.03</p>
+                           <p>OB ICE 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1993
+                        </p>
+                        <div class="hist-text">
+                           <p>1993.09</p>
+                           <p>OB SOUND 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1992
+                        </p>
+                        <div class="hist-text">
+                           <p>1992.05</p>
+                           <p>OB SKY 시판 / 구미공장 준공</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1990
+                        </p>
+                        <div class="hist-text">
+                           <p>1990.09</p>
+                           <p>양조기술연구소 신설</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="graph-box graph1980">
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1989
+                        </p>
+                        <div class="hist-text">
+                           <p>1989.07</p>
+                           <p>OB 수퍼 드라이 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1988
+                        </p>
+                        <div class="hist-text">
+                           <p>1988.03</p>
+                           <p>레벤브로이 맥주 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1987
+                        </p>
+                        <div class="hist-text">
+                           <p>1987.07</p>
+                           <p>신제품 버드와이저 맥주 시판</p>
+                        </div>
+                        <div class="hist-text">
+                           <p>1987.05</p>
+                           <p>광주공장 준공</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1977
+                        </p>
+                        <div class="hist-text">
+                           <p>1977.05</p>
+                           <p>신제품 와인 마주앙 시판</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1976
+                        </p>
+                        <div class="hist-text">
+                           <p>1976.12</p>
+                           <p>이천 공장 준공</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1966
+                        </p>
+                        <div class="hist-text">
+                           <p>1966.08</p>
+                           <p>캔맥주 생산 설비 완공</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1963
+                        </p>
+                        <div class="hist-text">
+                           <p>1963.02</p>
+                           <p>처음으로 맥주를 미국 밀턴 S. 크론바임사에 수출</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1955
+                        </p>
+                        <div class="hist-text">
+                           <p>1955.05</p>
+                           <p>생맥주 시판 (통생맥주, 병생맥주)</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1952
+                        </p>
+                        <div class="hist-text">
+                           <p>1952.05</p>
+                           <p>동양맥주주식회사 창립</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1948
+                        </p>
+                        <div class="hist-text">
+                           <p>1948.02</p>
+                           <p>상호를 동양맥주주식회사로 변경, 상표를 '오비맥주'로 변경</p>
+                        </div>
+                     </div>
+                     <div class="hist-div">
+                        <p class="hist-num">
+                           1933
+                        </p>
+                        <div class="hist-text">
+                           <p>1933.12</p>
+                           <p>소화기린맥주주식회사 창립</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+    <section class="news-room">
+      <div class="container">
+         <div class="title">
+            <h2>News Room</h2>
+            <button><i class="material-icons">forward</i></button>
+            <p>
+               오비맥주의 새로운 소식과 최신 정보를
+               뉴스룸에서 확인 할 수 있습니다.
+            </p>
+         </div>
+         <div class="news-list swiper-container">
+            <ul class="swiper-wrapper">
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img1.png" alt="">
+                     <div class="news-box">
+                        <h3>오비맥주, ‘물과 사람’ 주제로 사진 공모</h3>
+                        <p>오비맥주, ‘물과 사람’주제로 사전공모 환경 재단과 공동 주최 4일부터 11월 3일까지 학생 일반인 누구나 응모가능..</p>
+                        <span>2019-10-07</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img2.jpg" alt="">
+                     <div class="news-box">
+                        <h3>카스, ‘트위터 브랜드 어워드 2019’ 이노베이션 부문 수상</h3>
+                        <p>카스, ‘트위터 브랜드 어워드 2019’ 이노베이션 부문 수상- 인터랙티브 유튜브 영화 ‘아오르비(AORB)’의 창의적인 소재와 혁신성 인정 받아</p>
+                        <span>2019-10-04</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img3.jpg" alt="">
+                     <div class="news-box">
+                        <h3>오비맥주, 도로교통공단과 새내기 운전자 대상 ‘음주운전 타파 캠페인’</h3>
+                        <p>오비맥주, 도로교통공단과 새내기 운전자 대상 ‘음주운전 타파 캠페인’ - 25일, 
+                           서울 강남운전면허시험장서 음주운전 근절 서약 이벤트…신규 면허증과 함께 차량스티커도 배부…</p>
+                        <span>2019-09-27</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img4.png" alt="">
+                     <div class="news-box">
+                        <h3>카스, 사회적 편견을 넘은 이스포츠 선수 응원 캠페인 펼친다</h3>
+                        <p>카스, 사회적 편견을 넘은 이스포츠 선수 응원 캠페인 펼친다- 글로벌 이스포츠 기업 젠지와 파트너십 체결  (2019-09-25) 오비맥주(대표 고동우) 대표 브…</p>
+                        <span>2019-09-27</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img5.jpg" alt="">
+                     <div class="news-box">
+                        <h3>오비맥주, 임직원 재능기부 ‘해피 라이브러리 영어교실’ 연다</h3>
+                        <p>오비맥주, 임직원 재능기부 ‘해피 라이브러리 영어교실’ 연다- 방과 후 과외활동이 어려운 지역아동센터 아동 대상 영어 배움의 기회 제공</p>
+                        <span>2019-09-27</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img6.jpg" alt="">
+                     <div class="news-box">
+                        <h3>“미세먼지 저감 노력에 동참해요”</h3>
+                        <p>“미세먼지 저감 노력에 동참해요”- 오비맥주, 푸른아시아와 함께 22일 ‘서울 차 없는 날’ 덕수궁 부근서 ‘몽골 카스 희망의 숲’ 부스 열어..</p>
+                        <span>2019-09-20</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img7.jpg" alt="">
+                     <div class="news-box">
+                        <h3>“카스 블루 플레이그라운드 월드카운트다운 5일 티켓 오픈”</h3>
+                        <p>“카스 블루 플레이그라운드 월드카운트다운 5일 티켓 오픈”- 12/31일 동대문 DDP에서 개최…세계적 DJ들과 연말 최대 카운트다운 페스티벌- 카스, 우주공간에서의 EDM 축제를…</p>
+                        <span>2019-09-20</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img10.jpg" alt="">
+                     <div class="news-box">
+                        <h3>오비맥주, “건전음주 문화 확산에 앞장서겠습니다!”</h3>
+                        <p>오비맥주, “건전음주 문화 확산에 앞장서겠습니다!” - 5일 ‘글로벌 건전음주의 날’ 맞아 전사적 건전음주 캠페인 실시… 음주운전 예방 차량 스티커 배포식도..</p>
+                        <span>2019-10-04</span>
+                     </div>
+                  </a>
+               </li>
+               <li class="swiper-slide">
+                  <a href="#">
+                     <img src="img/newsroom_img9.jpg" alt="">
+                     <div class="news-box">
+                        <h3>오비맥주, 시민 대상 음주운전 타파 공모전 수상작 전시</h3>
+                        <p>오비맥주, 시민 대상 음주운전 타파 공모전 수상작 전시- 10월 14일까지 지하철 9호선 5개 역사서…음주와 운전은 딱 하나만 선택하라는 메시지 전해..</p>
+                        <span>2019-09-27</span>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="swiper-pagination"></div>
+         <button id="play-state" class="fas fa-pause"></button>
+      </div>
+    </section>
+    <footer>
+       <div class="container">
+         <div class="row-1">
+            <div class="sp sp-logo blind">OB lager</div>
+            <div class="btn-group">
+               <button>채용정보</button>
+               <button class="sp sp-sns1"></button>
+               <button class="sp sp-sns2"></button>
+               <button class="sp sp-sns3"></button>
+               <button class="sp sp-sns4"></button>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="address">
+               <address>서울시 강남구 영동대로 517 아셈타워 8층</address>
+               <address>The 8th floor of the 517 ASEM Tower in<br>
+               Yeongdong-daero, Gangnam-gu, Seoul</address>
+            </div>
+            <div class="customer">
+               <span>CUSTMOER CENTER</span>
+               <span>080.022.3277</span>
+               <span>09:00 - 22:00</span>
+            </div>
+         </div>
+         <div class="row-3">
+            <div class="footer-info">
+               <ul>
+                  <li>
+                     <a href="#">개인정보 취급방침</a>
+                  </li>
+                  <li>
+                     <a href="#">이메일 무단수집 거부</a>
+                  </li>
+               </ul>
+               <span>Copyright ⓒ Oriental Brewery Co. All rights reserved.</span>
+            </div>
+            <div class="site-map">
+               <button>Family Site</button>
+               <ul>
+                  <li><a href="#">카스</a></li>
+                  <li><a href="#">OB골든라거</a></li>
+                  <li><a href="#">코로나</a></li>
+                  <li><a href="#">카프리</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+    </footer>
+</body>
+</html>

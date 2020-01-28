@@ -1,0 +1,259 @@
+.container{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+}
+.t{
+    display: block;
+}
+.p,.m{
+    display: none;
+}
+.brands{
+    width: 100%;
+    background:url(../img/brands_bg2.jpg) no-repeat;
+    padding-bottom: 50px;
+}
+.company{
+    width: 100%;
+    background:#191919;
+}
+.history{    
+    width: 100%;
+    margin-bottom:50px;
+    background: white;
+}
+.news-room{
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    padding-bottom: 66px;
+}
+footer{
+    width: 100%;
+    height: 237px;
+    background: #262626;
+}
+.header nav{
+    position: fixed;
+    overflow: visible;
+    margin: 0;
+    float: none;
+    z-index: 50;
+    right:-300px;
+    top:0;
+    width: 300px;
+    height: 100vh;
+    background: #1d326c;
+    transition: right 0.5s linear;
+}
+.scroll .header nav{
+    margin: 0;
+ }
+.open .header nav{right:0;}
+/* 메뉴버튼 */
+#btn-menu{
+    position: absolute;
+    left:-50px;
+    top:46px;  
+}
+.open #btn-menu{
+    background: #1d326c;    
+    left:-42px;
+}
+ .gnb > li{
+     position: relative;
+     float: none;
+     text-align: left;
+     width: 100%;
+ }
+ .gnb > li > a{
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2e437c;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+ }
+ .gnb > li > a i{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transition: transform 0.5s;
+ }
+ .gnb-bg{
+     display: none;
+ }
+ .gnb > li .sub{
+     display: none;
+    height: auto;
+    transition: none;
+    margin-top: 0px;
+ }
+ .gnb >li .sub li a{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 14px;
+ }
+
+ .util{
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    float: left;
+}
+ .util .lang li a{
+    color: white;
+    font-size: 20px; 
+}
+/* 스크롤 메뉴 영역 ===== */
+.scroll .header nav{
+}
+.open.scroll .gnb{
+    right: 0;
+}
+.scroll #btn-menu{
+    top: 20px;
+}
+.open.scroll .header #btn-menu i {
+    color: white;
+    background: #1d326c;
+}
+
+.scroll .header #btn-menu i{
+    color: black;
+}
+.scroll .header .gnb>li>a>span {
+    color: white;
+    font-size: 16px;
+}
+.scroll .util {
+    top: 30px;
+}
+.util .search i {
+    font-size: 34px;
+    color: white;
+    font-weight: 800;
+}
+.scroll .util .lang ul li a {
+    color: black;
+    font-size: 21px;
+}
+.scroll .util .search i{
+    color: black;
+}
+
+/* 브랜드 */
+.brands .title{
+    padding-top: 80px;
+}
+.brands .title button i {
+    font-size: 39px;
+    top:87px;
+}
+.brands .title h2 {
+    font-size: 32px;
+}
+.brands .beer-list{
+    height: 500px;
+ }
+ .brands .beer-list ul li{
+     width: 50%;
+ }
+ .brands .beer-list ul li img{
+     width: 150px;
+ }
+
+/* 컴퍼니 */
+.company{
+    padding-bottom: 50px;
+}
+.company .title h2{
+    font-size: 32px;
+}
+.company button i {
+    font-size: 47px;
+}
+.company .company-box{
+    float: none;
+    position: static;
+    width: 100%;    
+}
+.company .company-box .text-box{
+    padding: 0 50px;
+}
+.company .company-box p{
+    width: 100%;
+}
+.company .company-box .img-box{
+    display: none;
+}
+.company .worldmap-box {
+    float: none;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+.company .worldmap-box iframe{
+    max-width: 700px;
+}
+.company .worldmap-box .text-box {
+    padding: 0 50px;
+    margin-left: 0;
+}
+.company .worldmap-box p {   
+    width: 100%;
+}
+
+
+/* 히스토리 */
+.history .title h2 {
+    font-size: 32px;
+}
+
+.history .title button i {
+    font-size: 46px;
+}
+.history .img-box {
+    display: none;
+}
+.history .graph{
+    float: none;
+    width: 76%;
+    margin: 0 auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+.history .sub-title{
+    display: none;
+}
+
+/* 뉴스룸 */
+.news-room .title h2{
+    font-size: 32px;
+}
+.news-room .title button i {
+    font-size: 44px;
+}
+.news-room .news-list .news-box h3 {
+    font-size: 16px;
+}
+.news-room .news-list .news-box p{
+    font-size: 12px;
+}
+.news-room .news-list .news-box span {
+    bottom: 5px;
+}
