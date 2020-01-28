@@ -22,11 +22,14 @@
 }
 /* 검색창 */
 .search-box{
-   top: 70%;
+   top: 130%;
+   width: 250px;
+   height: 200px;
 }
 .search-box input{
    width: 200px;
    height: 32px;
+   font-size: 12px;
 }
 .search-box .search i{
    font-size: 26px;
@@ -35,7 +38,7 @@
    font-size: 32px;
 }
 input::placeholder{
-   font-size: 10px;
+   font-size: 12px;
 }
 .company .worldmap-box iframe {
    height: 220px;
