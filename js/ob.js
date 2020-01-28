@@ -126,10 +126,10 @@ $(function(){
            el:'.main .swiper-pagination',
            clickable:true,
         },
-        // autoplay: {
-        //     delay: 4500,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+        },
         navigation: {
             nextEl: '.main .swiper-button-next',
             prevEl: '.main .swiper-button-prev',
