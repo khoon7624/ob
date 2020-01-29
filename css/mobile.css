@@ -40,6 +40,9 @@
 input::placeholder{
    font-size: 12px;
 }
+.brands .beer-list ul li.swiper-slide-active img{
+   transform: translateX(-50%) scale(1.1);
+}
 .company .worldmap-box iframe {
    height: 220px;
 }

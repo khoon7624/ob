@@ -371,7 +371,7 @@ input::placeholder{
 }
 .brands .beer-list ul li.swiper-slide-active img{
     opacity: 1;
-    /* transform: translateX(-50%) scale(1.2); */
+    transform: translateX(-50%) scale(1.2);
 }
 .swiper-slide .beer-info{
     position: absolute;
