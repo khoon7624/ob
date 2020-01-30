@@ -26,6 +26,9 @@ $(function(){
         $('section').off('mousewheel');
         $('.gnb').off('click')
         $('.sub').css('display' , 'none')
+        $('.gnb-bg, .gnb .sub').slideUp();        
+        $('.util').show();
+        $('.gnb>li>a').css('color','white');
         if(windowWidth>=1100){
 
             // 마우스 휠 이벤트 ===================================      
@@ -58,6 +61,8 @@ $(function(){
                 $('.util').hide();
                 $('.gnb>li>a').css('color','#013b90');
             })
+        }else if(windowWidth<=1100){
+            $('.gnb-bg').css('display' , 'none')
         }
         
 
