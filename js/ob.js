@@ -63,7 +63,6 @@ $(function(){
         //슬라이드 이미지 변경
         var windowH=$(this).height()-40;
         if(windowH < windowWidth/2){           
-            console.log('변경');
             $('.main .swiper-container').addClass('change');
         }else{
             $('.main .swiper-container').removeClass('change');
@@ -154,9 +153,7 @@ $(function(){
     });
 
     $('.brands a').click(function (e) { 
-        e.preventDefault();
-        console.log('클릭');
-        
+        e.preventDefault();   
     });
 
       // history 탭메뉴 효과 =====================================
