@@ -27,7 +27,6 @@ $(function(){
         $('.gnb').off('click')
         if(windowWidth>=1100){
             // 마우스 휠 이벤트 ===================================      
-            
             $('section').on('mousewheel',function(e, delta){
                 var i = $(this).index();
                 if(delta > 0){
